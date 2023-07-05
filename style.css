@@ -1,0 +1,134 @@
+
+body {
+    background-color: black;
+    color: beige;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 10px;
+  }
+
+  .infoNav li a {
+    font-weight: bold;
+    
+  }
+
+  .textNav{
+    font-family:'Caveat', cursive;
+    font-size: 40px;
+  }
+
+
+.iconDeco{
+    font-size: 60px;
+    color:  #1962e1;
+}
+.iconDeco:hover{
+    color:red;
+}
+
+.iconDeco2{
+    color:red;
+}
+.iconDeco2:hover{
+    color: #3BB273;
+
+}
+
+.background-deco{
+    background-color: black;
+}
+.background-deco:hover{
+    background-image: url(/img/background.gif);
+    background-repeat:round;
+}
+
+
+.textDecoration2 {
+    color: beige;
+}
+.textDecoration2:hover{
+    color:#05f69e;
+  
+}
+
+.textDecoration3{
+    color:beige;
+}
+.textDecoration3:hover{
+    color:#E5625E;
+}
+
+.textDecoration32{
+    color:beige;
+}
+.textDecoration32:hover{
+    color:#DCEED1;
+}
+
+.textDecoration321{
+    color:beige;
+}
+.textDecoration321:hover{
+    color:#02fb23;
+}
+
+
+.textDecoration4{
+    color:bisque;
+}
+.textDecoration4:hover{
+    color:#FFBC42;
+    text-transform: uppercase;
+}
+
+.textDecoration5{
+    color:bisque;
+}
+.textDecoration5:hover{
+    color: #EE85B5;
+}
+
+.background-deco2{
+    background-color: black;
+}
+.background-deco2:hover{
+    background-image: url(/img/other.gif);
+}
+
+.navDeco{
+    color: black;
+}
+.navDeco:hover{
+    background-image: url(/img/nav.gif);
+    background-size: 600px 500px;
+    
+}
+
+.img-floor{
+    max-width: 170px;
+    height: auto;
+  }
+
+
+
+  @keyframes borderAnimation {
+    0% {
+      border-color: yellow;
+    }
+    33% {
+      border-color: red;
+    }
+    66% {
+      border-color: green;
+    }
+    100% {
+      border-color: yellow;
+    }
+  }

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>My Personal Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&family=Pacifico&family=Teko:wght@500&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!--External CSS-->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f9209e972a.js" crossorigin="anonymous"></script>
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navDeco">
+      <div class="container-fluid">
+        <a class="navbar-brand textNav textDecoration5" href="https://www.linkedin.com/in/cibokenan24/">Kenan
+          Cibooglu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav infoNav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link textDecoration4" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textDecoration4" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textDecoration4" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textDecoration4" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Nav Bar-->
+
+    <!-- About Me-->
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="p-2">
+            <h1 class=" background-deco2 textDecoration2 p-3 ">About Me</h1>
+            <p class="textDecoration3 ">Hi! I'm Kenan,I am improving myself on the Front End and Back End side. So far I
+              have learned HTML5, CSS3, BootStrap, JavaScript and C Shrap and I want to improve myself more in these
+              areas.
+
+              What I'll learn about in the future are React, Redux, Angular, TailwindCSS, Express.JS, PostgreSQL, and
+              OpenAPI. I would like to improve myself more in these matters.
+
+              If you would like to help me and think I can learn something from you, please contact me. My contact
+              addresses are given below.
+              <strong>
+                <p class="textDecoration3">Thank you.</p>
+              </strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="p-3 m-3">
+            <img src="/img/my_pic.jpg" alt="myPicture" width="300" height="auto"
+              style="float: right; border-radius: 10px;" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me-->
+  </header>
+  <main>
+    <!--Project-->
+    <div class="container">
+      <div class="row">
+        <h1 class='textDecoration2 p-4' id="project">Projects</h1>
+        <!--One Card-->
+        <div class="col-4">
+          <div class="card mb-3" style="max-width: 540px; border-radius: 2px;" onmouseover="startAnimation(this)" onmouseout="stopAnimation(this)">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/img/credit-card.jpg" class=" img-fluid rounded-start" alt="credit-project">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                  <h5 class="card-title" style="color: black; text-decoration: underline;">Credit Card Checker
+                  </h5>
+                  <p class="card-text" style="color: black;">The project I created here is a credit card checker
+                    program. I look forward to seeing you on my GitHub account to see this project.</p>
+                  <a href="https://github.com/cibo-24/Credit-Card-Checker"><button>Let's Go</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--One Card-->
+
+        <!--Two Card-->
+        <div class="col-4">
+          <div class="card mb-3" style="max-width: 540px; border-radius: 2px;" onmouseover="startAnimation(this)" onmouseout="stopAnimation(this)">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/img/csharp.jpg" class="img-floor img-fluid rounded-start" alt="csharp-project">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: black; text-decoration: underline;">All My CSharp Projects
+                  </h5>
+                  <p class="card-text" style="color: black;">The projects I've created here are a few projects I've done
+                    with C Sharp. I look forward to seeing these projects on my GitHub account.</p>
+                  <a href="https://github.com/cibo-24/CSharp_Projects"><button>Let's Go</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Two Card-->
+
+        <!--Three Card-->
+        <div class="col-4">
+          <div class="card mb-3" style="max-width: 540px;" onmouseover="startAnimation(this)" onmouseout="stopAnimation(this)">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/img/js.jpg" class="img-floor img-fluid rounded-start" alt="javaScript-project">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: black; text-decoration: underline;">JS Mouse Events
+                  </h5>
+                  <p class="card-text" style="color: black;">The project I created here is a few projects I did with
+                    Java Script. I look forward to seeing you on my GitHub account to see this project.
+                  </p>
+                  <a href="https://github.com/cibo-24/Credit-Card-Checker"><button>Let's Go</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Three Card-->
+      </div>
+    </div>
+    <!--Project-->
+
+    <!--Skills-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 ">
+          <h1 class="textDecoration2 p-3" id="skill">Skills</h1>
+          <i class="iconContainer iconDeco fa-brands fa-html5 fa-3xl p-4"></i>
+          <i class="iconDeco fa-brands fa-css3 fa-3xl p-4"></i>
+          <i class="iconDeco fa-brands fa-square-js fa-3xl p-4"></i>
+          <i class="iconDeco fa-solid fa-code-branch fa-3xl p-4"></i>
+          <i class="iconDeco fa-brands fa-bootstrap fa-3xl p-4"></i>
+          <i class="iconDeco fa-solid fa-c fa-3xl p-4">#</i>
+        </div>
+      </div>
+    </div>
+    <!--Skills-->
+  </main>
+  <footer>
+    <!--Contanct-->
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="textDecoration2 p-3" id="contact">Contact</h1>
+          <p class="textDecoration3">To contact me, please click on the links below and then get in touch from there.
+          </p>
+          <a href="https://www.linkedin.com/in/cibokenan24/"><i
+              class="iconDeco fa-brands fa-linkedin fa-2xl p-3 "></i></a>
+          <a href="https://github.com/cibo-24"><i class="iconDeco fa-brands fa-github fa-2xl p-3"></i></a>
+          <a href="cibo.kenan@gmail.com"> <i class="iconDeco fa-regular fa-envelope fa-2xl p-3"></i></a>
+        </div>
+      </div>
+    </div>
+    <!--Contanct-->
+
+    <!--Footer Text-->
+    <div class="container p-5 text-light background-deco p-3">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center textDecoration32" style="position:relative;">Made on <i
+              class="iconDeco2 fa-solid fa-heart fa-2xs"></i> my desk</h3>
+          <h4 class="text-center textDecoration321"> cibo <i class="textDecoration321 fa-solid fa-tree fa-xl"></i> kenan
+          </h4>
+
+        </div>
+      </div>
+    </div>
+    <!--Footer Text-->
+  </footer>
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+  <!--External JS-->
+  <script src="/template.js"></script>
+</body>
+
+
+</html>
